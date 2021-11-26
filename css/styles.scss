@@ -254,12 +254,30 @@ i{
     background-image: url("../assets/img/bg-pricing.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40vh;
+    height: 50%;
     bottom: 0;
     left: 0;
     z-index: -1;
-    
- 
+  }
+  .plans-box{
+    margin-top: 4rem;
+    i{
+      margin: 0;
+    }
+  }
+  .plans-btn{
+    color: #fff;
+    padding: 1rem 2rem;
+    border: 1px solid #fff;
+    border-radius: 2.5rem;
+  }
+  .plans-btn:hover{
+    color: $color-accent-1;
+    padding: 1rem 2rem;
+    background: linear-gradient(180deg, #FFFFFF 0%, #e0e0e0 100%);
+    box-shadow: 0px 4px 54px -13px rgba(0, 0, 0, 0.322);
+    border-radius: 2.5rem;
+    font-weight: 500;
   }
  
 

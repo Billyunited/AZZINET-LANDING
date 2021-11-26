@@ -3,8 +3,8 @@ body {
 }
 
 h1 {
-  font-size: 3.4375rem;
-  line-height: 3.8rem;
+  font-size: 4.5rem;
+  line-height: 4rem;
   font-style: italic;
   font-weight: 500;
   color: #fff;
@@ -264,9 +264,35 @@ video {
   background-image: url("../assets/img/bg-pricing.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 40vh;
+  height: 50%;
   bottom: 0;
   left: 0;
   z-index: -1;
+}
+
+.plans-box {
+  margin-top: 4rem;
+}
+
+.plans-box i {
+  margin: 0;
+}
+
+.plans-btn {
+  color: #fff;
+  padding: 1rem 2rem;
+  border: 1px solid #fff;
+  border-radius: 2.5rem;
+}
+
+.plans-btn:hover {
+  color: #585CCC;
+  padding: 1rem 2rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#e0e0e0));
+  background: linear-gradient(180deg, #FFFFFF 0%, #e0e0e0 100%);
+  -webkit-box-shadow: 0px 4px 54px -13px rgba(0, 0, 0, 0.322);
+          box-shadow: 0px 4px 54px -13px rgba(0, 0, 0, 0.322);
+  border-radius: 2.5rem;
+  font-weight: 500;
 }
 /*# sourceMappingURL=styles.css.map */
