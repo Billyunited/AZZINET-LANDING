@@ -1,0 +1,265 @@
+@import 'variables';
+@import '_mixins-global';
+// VARIABLES
+
+// sa
+body {
+    font-family: "Poppins";
+  }
+
+h1{
+  @include h1-hero;
+}
+
+h2{
+  @include h2-titles;
+}
+
+p{
+  font-size: 0.9375rem;
+  line-height: 1.2rem;
+  font-weight: 200;
+}
+a{
+  text-decoration: none;
+
+}
+
+li{
+  list-style-type: none;
+  color: $color-accent-1;
+
+}
+
+i{
+  margin-right: .5rem;
+}
+
+  .spacing-top{
+      padding-top: 100px;
+  }
+  .spacing-bottom{
+      padding-bottom: 100px;
+  }
+  
+  .logo-azzinet {
+    height: 45px;
+  }
+  
+  .header {
+    height: 100vh;
+    /* background-image: url("../assets/img/big-hero.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+
+    a{
+        font-weight: 250;
+        font-size: .9rem;
+    }
+    .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+        border-bottom: 1px solid #fff;
+        font-weight: 500;
+        color: rgb(255, 255, 255);
+    }
+  }
+
+  video{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+  }
+// HERO
+.subtitle-hero{
+  color: $white-text;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+  .bg-hero{
+    background: linear-gradient(180deg, #0000006b 0%, #00000088 100%);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 1;
+  }
+
+  .hero-btns{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    margin-top: 1rem
+    ;
+    .hero-btn-1{
+      @include btn-hero-1
+      font-weight: 350;
+ 
+    }
+    .hero-btn-2{
+      @include btn-hero-2
+      font-weight: 350;
+     
+    }
+  }
+  
+
+
+  .navbar{
+      padding: 30px 0;
+      i{
+          margin-right: 5px;
+      }
+  }
+  
+  .nav-item {
+    margin-right: 0.75rem;
+  }
+  .nav-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 16px;
+    color: #fff;
+  }
+  .bg-dark {
+    background-color: rgba(0, 0, 0, 0.541);
+  }
+  
+  /* HERO */
+  .hero-info {
+    margin-top: 8%;
+    z-index: 1;
+  }
+
+  .navbar{
+      z-index: 3;
+  }
+
+  .dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: $color-accent-1;
+}
+  
+  .hero-btn {
+   
+    
+  }
+
+ 
+  .hero-btn:hover{
+  color: #fff;
+  
+  
+  }
+  
+  .icons{
+    margin-left: 5px; 
+  }
+//   SECTIONS
+
+// PRICING
+
+  .pricing-title{
+    color: $color-accent-1;
+  }
+  .pricing-subtitle{
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  .pricing-cards{
+  
+    .card-item{
+      height: 100%;
+      margin: 0 .5rem;
+
+     
+      background: linear-gradient(180deg, #FFFFFF 0%, #F3F3F3 100%);
+      box-shadow: 0px 4px 54px -13px rgba(0, 0, 0, 0.25);
+      border-radius: 1.3rem;
+
+      .card-promo{
+        background-color: #EFF0FF;
+        text-align: center;
+        padding: 1rem ;
+       p
+        {
+          margin: 0;
+        }
+
+      }
+      .card-item-title{
+        color: $white-text;
+        text-align: center;
+        padding: .5rem 0;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 550;
+        background: linear-gradient(180deg, #585DCE 0%, #4D51B4 100%);
+        border-top-left-radius: 1.3rem;
+        border-top-right-radius: 1.3rem;
+        margin-bottom: 0;
+
+      }
+    }
+    
+    .card-info{
+      padding: 1.5rem 2rem  2rem;
+      text-align: center;
+      ul{
+        text-align: start;
+        
+      }
+      li{
+        font-size: 1.2rem;
+      }
+      .card-btn-box{
+        padding: 1.5rem 0 1.5rem;
+      }
+      .card-btn-contratar{
+        display: block;
+        font-size: 1.2rem;
+        color: $white-text;
+        background-color: $color-accent-1;
+        padding: 1rem 1.5rem;
+        border-radius: 2rem;
+        
+
+      }
+    }
+
+    .card-megas{
+      font-size: 2.8rem;
+      font-weight: 550;
+    }
+
+   
+  }
+
+  .p-container{
+    position: relative;
+  }
+
+  .bg-pricing{
+    position: absolute;
+    background-image: url("../assets/img/bg-pricing.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    
+ 
+  }
+ 
+
