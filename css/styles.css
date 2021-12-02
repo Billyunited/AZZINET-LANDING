@@ -39,6 +39,32 @@ i {
   margin-right: .5rem;
 }
 
+.top-info {
+  height: 2.5rem;
+  background: -webkit-gradient(linear, left top, right top, from(#2B398F), to(#6367D1));
+  background: linear-gradient(90deg, #2B398F 0%, #6367D1 100%);
+  color: #eaeafd;
+}
+
+.top-info .top-info-container {
+  font-size: .8rem;
+  font-weight: 300;
+}
+
+.top-info .top-info-container span {
+  margin-left: 1rem;
+}
+
+.top-info-box {
+  height: 2.5rem;
+}
+
+.top-info-social-item {
+  margin-left: 2px;
+  padding: 0;
+  color: #fff;
+}
+
 .spacing-top {
   padding-top: 100px;
 }
