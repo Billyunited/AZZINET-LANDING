@@ -14,7 +14,7 @@ h1 {
 h2 {
   font-size: 2.625rem;
   color: #fff;
-  line-height: 3.2rem;
+  line-height: 2.5rem;
   font-style: italic;
   font-weight: 400;
   margin-bottom: 0.9375rem;
@@ -192,7 +192,8 @@ video {
 
 .pricing-cards .card-item {
   height: 100%;
-  margin: 0 .5rem;
+  margin: 0 .5rem 1rem !important;
+  width: 250px;
   background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F3F3F3));
   background: linear-gradient(180deg, #FFFFFF 0%, #F3F3F3 100%);
   -webkit-box-shadow: 0px 4px 54px -13px rgba(0, 0, 0, 0.25);
@@ -203,11 +204,12 @@ video {
 .pricing-cards .card-item .card-promo {
   background-color: #EFF0FF;
   text-align: center;
-  padding: 1rem;
+  padding: .4rem;
 }
 
 .pricing-cards .card-item .card-promo p {
   margin: 0;
+  font-size: .8rem;
 }
 
 .pricing-cards .card-item .card-item-title {
@@ -225,16 +227,17 @@ video {
 }
 
 .pricing-cards .card-info {
-  padding: 1.5rem 2rem  2rem;
+  padding: 1.5rem 2rem  0rem;
   text-align: center;
 }
 
 .pricing-cards .card-info ul {
   text-align: start;
+  padding: 0;
 }
 
 .pricing-cards .card-info li {
-  font-size: 1.2rem;
+  font-size: .8rem;
 }
 
 .pricing-cards .card-info .card-btn-box {
@@ -245,13 +248,13 @@ video {
   display: block;
   font-size: 1.2rem;
   color: #fff;
-  background-color: #585CCC;
+  background-color: #9BBA00;
   padding: 1rem 1.5rem;
   border-radius: 2rem;
 }
 
 .pricing-cards .card-megas {
-  font-size: 2.8rem;
+  font-size: 1.8rem;
   font-weight: 550;
 }
 
@@ -294,5 +297,111 @@ video {
           box-shadow: 0px 4px 54px -13px rgba(0, 0, 0, 0.322);
   border-radius: 2.5rem;
   font-weight: 500;
+}
+
+.feature-1 {
+  height: 100vh;
+  background-size: cover;
+  background-color: red;
+  background-image: url("../assets/img/ft-1.jpg");
+  background-position: center center;
+  position: relative;
+}
+
+.feature-1 p {
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  font-weight: 300;
+}
+
+.feature-1-container {
+  z-index: 5;
+  height: 100vh;
+}
+
+.ft-1-bg {
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.49);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1;
+}
+
+.feature-2-left {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#DAD9D9));
+  background: linear-gradient(180deg, #FFFFFF 0%, #DAD9D9 100%);
+  height: 100vh;
+  position: relative;
+  padding: 0 4rem;
+}
+
+.feature-2-left .feature-2-left-title {
+  color: #585CCC;
+}
+
+.feature-2-left .feature-2-left-description {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.bg-cobertura {
+  position: absolute;
+  background-image: url("../assets/img/bg-cobertura.svg");
+  background-repeat: no-repeat;
+  bottom: 0;
+  left: 0;
+  height: 30%;
+  width: 100%;
+}
+
+.cobertura-list {
+  margin: 0;
+  padding: 0;
+}
+
+.cobertura-list li {
+  padding: .2rem .8rem;
+  margin-right: .5rem;
+  margin-bottom: .5rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#585DCE), to(#4D51B4));
+  background: linear-gradient(180deg, #585DCE 0%, #4D51B4 100%);
+  color: #fff;
+  border-radius: 2rem;
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+.feature-2-right {
+  height: 100vh;
+  background-image: url("../assets/img/ft-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.feature-3 {
+  position: relative;
+  height: 100vh;
+  background-image: url("../assets/img/ft-3.png");
+  background-size: cover;
+  background-position: center top;
+}
+
+.feature-3-container {
+  height: 100vh;
+}
+
+.feature-3-container p {
+  color: #fff;
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  font-weight: 300;
 }
 /*# sourceMappingURL=styles.css.map */

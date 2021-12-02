@@ -13,7 +13,7 @@
 @mixin h2-titles {
     font-size: 2.625rem;
     color: $white-text;
-    line-height: 3.2rem;
+    line-height: 2.5rem;
     font-style: italic;
     font-weight: 400;
     margin-bottom: 0.9375rem;
@@ -28,6 +28,7 @@
     border-radius: .5rem;
    
 }
+
 @mixin btn-hero-2 {
     color: $white-text ;
     font-size: 1rem;
@@ -35,4 +36,17 @@
     background: linear-gradient(180deg, #585DCE 0%, #4D51B4 100%);
     border-radius: .5rem;
    
+}
+
+@mixin btn-navbar {  
+    background: linear-gradient(180deg, #585DCE 0%, #4D51B4 100%);
+    border-radius: 7.2583rem;
+}
+
+// texto
+@mixin text-desc {
+    color: #fff;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    font-weight: 300;
 }
