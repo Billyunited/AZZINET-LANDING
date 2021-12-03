@@ -1,5 +1,5 @@
 body {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
@@ -32,7 +32,6 @@ a {
 
 li {
   list-style-type: none;
-  color: #585CCC;
 }
 
 i {
@@ -43,7 +42,7 @@ i {
   height: 2.5rem;
   background: -webkit-gradient(linear, left top, right top, from(#2B398F), to(#6367D1));
   background: linear-gradient(90deg, #2B398F 0%, #6367D1 100%);
-  color: #eaeafd;
+  color: #e7e7ff;
 }
 
 .top-info .top-info-container {
@@ -53,6 +52,7 @@ i {
 
 .top-info .top-info-container span {
   margin-left: 1rem;
+  color: #cacbff;
 }
 
 .top-info-box {
@@ -112,11 +112,12 @@ video {
   color: #fff;
   font-size: 1.5rem;
   font-weight: 300;
+  margin-top: 1rem;
 }
 
 .bg-hero {
-  background: -webkit-gradient(linear, left top, left bottom, from(#000000ab), to(#000000a3));
-  background: linear-gradient(180deg, #000000ab 0%, #000000a3 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000af), to(#00000071));
+  background: linear-gradient(180deg, #000000af 0%, #00000071 100%);
   position: absolute;
   top: 0;
   left: 0;
@@ -128,15 +129,7 @@ video {
 }
 
 .hero-btns {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  gap: 1rem;
-  margin-top: 1rem;
+  margin-top: 1.2rem;
 }
 
 .hero-btns .hero-btn-1 {
@@ -145,7 +138,8 @@ video {
   background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F3F3F3));
   background: linear-gradient(180deg, #FFFFFF 0%, #F3F3F3 100%);
   border-radius: .5rem;
-  font-weight: 350;
+  font-weight: 450;
+  margin-right: .6rem;
 }
 
 .hero-btns .hero-btn-2 {
@@ -159,7 +153,7 @@ video {
 }
 
 .navbar {
-  padding: 1rem 0 0 1.875rem;
+  padding: 1.4rem 0 0 0;
 }
 
 .navbar i {
@@ -175,7 +169,7 @@ video {
   font-weight: normal;
   font-size: 18px;
   line-height: 16px;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.856) !important;
 }
 
 .bg-dark {
@@ -184,8 +178,8 @@ video {
 
 /* HERO */
 .hero-info {
-  margin-top: 10rem;
   z-index: 1;
+  height: 70vh;
 }
 
 .navbar {
@@ -272,10 +266,10 @@ video {
 
 .pricing-cards .card-info .card-btn-contratar {
   display: block;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #fff;
-  background-color: #9BBA00;
-  padding: 1rem 1.5rem;
+  background-color: #e68226;
+  padding: .7rem 1.2rem;
   border-radius: 2rem;
 }
 
@@ -429,5 +423,119 @@ video {
   font-size: 1.1rem;
   line-height: 1.3rem;
   font-weight: 300;
+}
+
+.feature-4 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f3f3f3));
+  background: linear-gradient(180deg, #ffffff 0%, #f3f3f3 100%);
+}
+
+.feature-4-container {
+  padding: 2.25rem 0;
+}
+
+.feature-4-container h2 {
+  color: #585CCC;
+}
+
+.feature-4-container p {
+  color: #585CCC;
+  font-weight: 300;
+  margin: 0;
+}
+
+.feature-4-items h4 {
+  font-size: 1.3rem;
+  color: #fff;
+  font-style: italic;
+  font-weight: 100 !important;
+  padding-bottom: 0;
+  margin-bottom: .2rem;
+  text-align: center;
+}
+
+.feature-4-item1 {
+  background-image: url("../assets/img/ift4-item1.png");
+  min-height: 560px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.feature-4-item2 {
+  background-image: url("../assets/img/ft4-item2.png");
+  min-height: 560px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.feature-4-item3 {
+  background-image: url("../assets/img/ft4-item3.png");
+  min-height: 560px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.feature-4-item4 {
+  background-image: url("../assets/img/ft4-item4.png");
+  min-height: 560px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.callcenter-title {
+  font-size: 1.6rem;
+  font-weight: 550;
+  margin-bottom: 1rem;
+}
+
+.call-center-img {
+  background-image: url("../assets/img/callcenter.png");
+  background-size: cover;
+  background-position: center top;
+  height: 500px;
+  width: 100%;
+  height: 70;
+}
+
+.callcenter-btn {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 1rem;
+  padding: 1rem 6.5rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#585DCE), to(#4D51B4));
+  background: linear-gradient(180deg, #585DCE 0%, #4D51B4 100%);
+  border-radius: .5rem;
+  font-weight: 350;
+  border: none;
+}
+
+footer h6 {
+  font-size: .9rem !important;
+}
+
+@media (min-width: 360px) and (max-width: 775px) {
+  h1 {
+    margin-top: 3rem;
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .subtitle-hero {
+    font-size: 1.2rem;
+  }
+  .pricing-title, .pricing-info {
+    margin: 0;
+    padding: 0;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  br {
+    display: none;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
