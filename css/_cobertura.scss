@@ -1,0 +1,50 @@
+.cobertura-bg {
+    background-image: url("../assets/img/cobertura.png");
+    height: 80vh !important;
+}
+
+.cobertura-container {
+    @include color-bg-gradient1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cobertura-title {
+    background: linear-gradient(180deg, #ffffff 0%, #e9e9e9 100%);
+
+    .cobertura-text-title {
+        color: $color-accent-1;
+    }
+    span {
+        font-weight: 700;
+    }
+}
+.accordion-body {
+    max-height: 380px;
+    height: 380px;
+    ul {
+        padding: 10px 0 10px 10px;
+    }
+}
+.accordion-btn-active {
+}
+.cobertura {
+    @include spacing-top-100;
+    @include spacing-bottom-100;
+}
+
+.accordion-item li {
+    font-size: 0.9rem;
+}
+
+.accordion-item ul i {
+    color: $color-accent-1;
+    font-size: 12px;
+}
+
+.cobertura h4 {
+    color: $color-accent-1;
+}
+
+.accordion-item:first-of-type .accordion-button {
+}

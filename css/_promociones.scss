@@ -1,0 +1,10 @@
+.promociones-bg {
+    background-image: url("../assets/img/promociones.png");
+    height: 90vh !important;
+}
+
+.promo-container-bg {
+    @include color-bg-gradient1;
+    padding-top: 50px;
+    @include spacing-bottom-100;
+}

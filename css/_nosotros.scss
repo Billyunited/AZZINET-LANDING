@@ -1,0 +1,64 @@
+.hero-title {
+    @include hero-title-sections;
+}
+
+.hero-title span {
+    font-weight: 700;
+}
+.header-nosotros-bg {
+    background-image: url("../assets/img/nosotros-bg.png");
+    background-repeat: no-repeat;
+    height: 90vh !important;
+    background-size: cover;
+}
+
+.nosotros {
+    position: relative;
+    z-index: 5;
+    @include spacing-top-100;
+    @include spacing-bottom-100;
+    @include color-bg-gradient1;
+    .row {
+        max-width: 1000px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 15;
+    }
+}
+
+.nosotros-svg {
+    background-image: url("../assets/img/nosotros-svg.svg");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.quienes-somos-info-left {
+    height: 560px;
+    padding: 0 3.5rem;
+    @include color-bg-gradient1;
+    @include shadow-1;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    h4 {
+        color: $white-text;
+        font-size: 2.625rem;
+    }
+    p {
+        color: $white-text;
+        font-size: $font-size-text;
+        line-height: 1.2rem;
+    }
+}
+
+.img-quienes-somos {
+    object-fit: cover;
+    @include shadow-1;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}

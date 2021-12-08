@@ -1,0 +1,20 @@
+.inalambrico-bg {
+    background-image: url("../assets/img/Inalambrico.jpg");
+}
+
+// .planes-inalambrico-title h2 {
+//     color: $color-accent-1;
+//     padding: 0;
+//     font-style: normal;
+//     font-size: 28px;
+//     font-weight: 700;
+// }
+
+.inalambrico-cards {
+    @include color-bg-gradient1;
+    @include spacing-top-100;
+    @include spacing-bottom-100;
+    h2 {
+        margin-bottom: 50px;
+    }
+}

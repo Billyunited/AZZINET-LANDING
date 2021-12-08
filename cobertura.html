@@ -23,6 +23,7 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -54,7 +55,7 @@
     </div>
     <!--/TOP HEADER  -->
     <!-- HEADER / HERO -->
-    <div class="header container-fluid header-nosotros-bg">
+    <div class="header container-fluid cobertura-bg">
 
         <div class="bg-hero"></div>
         <div class="container">
@@ -74,7 +75,8 @@
                                     Inicio</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="#"><i class="bi bi-people-fill"></i> Nosotros</a>
+                                <a class="nav-link" href="./nosotros.html"><i class="bi bi-people-fill"></i>
+                                    Nosotros</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -94,11 +96,10 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./cobertura.html"><i class="bi bi-bounding-box"></i>
-                                    Cobertura</a>
+                                <a class="nav-link" href="#"><i class="bi bi-bounding-box"></i> Cobertura</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="#"><i class="bi bi-star"></i>Beneficios</a>
+                                <a class="nav-link" href="./promociones.html"><i class="bi bi-star"></i>Promociones</a>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link" href="#"><i class="bi bi-info-circle"></i>Contacto</a>
@@ -119,9 +120,8 @@
         <div class="hero container">
             <div class="row">
                 <div class="col-12   hero-info d-flex flex-column justify-content-center text-center  ">
-                    <h1 class="hero-title ">10 años llevando <span>Internet</span> a <br>
-                        las zonas más alejadas
-                        <br> de <span>Tosagua</span>
+                    <h1 class="hero-title ">Nuestra <span>Red y Cobertura</span> <br>
+                        llegan a <span>más hogares</span>
                     </h1>
                 </div>
 
@@ -130,47 +130,135 @@
         </div>
     </div>
 
-    <div class="container-fluid nosotros">
-        <div class="container">
-            <div class="row pb-5 quienes-somos">
-                <div
-                    class="quienes-somos-info-left col-6 col-md-6 col-sm-12  d-flex flex-column justify-content-center">
-                    <h4 class="">Quienes somos</h4>
-                    <p class="">Somos una empresa Joven con sentido de responsabilidad social y en proceso
-                        de expansión,
-                        creada con la finalidad de
-                        proveer de manera eficaz y confiable un servicio de Internet Banda Ancha a todos los hogares,
-                        Empresas y Comercios.
-                        Nuestro objetivo principal es suministrar la capacidad de conexión a Internet inalámbrico en
-                        lugares donde no llegan las
-                        prestadoras y a un precio justo.
-                    </p>
-                </div>
 
-                <img class="img-fluid col-6 col-md-6 col-sm-12 p-0 img-quienes-somos"
-                    src="./assets/img/quienes-somos-right.png" alt="">
-            </div>
-            <div class="row ">
-                <div
-                    class="quienes-somos-info-left col-6 col-md-6 col-sm-12  d-flex flex-column justify-content-center">
-                    <h4 class="">Visión</h4>
-                    <p class="">Conectar a todos los hogares de Tosagua, llegando a las zonas más alejadas proveyendo de
-                        conexión a Internet para el
-                        desarrollo de nuestro cantón.
-                        Ofreciendo el mayor beneficio posible al menor costo. Invertimos en el desarrollo de nuestra
-                        ciudad y el motor principal
-                        de cambio: su gente.
-                    </p>
-                </div>
-                <img class="img-fluid col-6 col-md-6 col-sm-12 p-0 img-quienes-somos" src="./assets/img/vision-img.png"
-                    alt="">
+    <!-- COBERTURA ITEMS -->
+    <div class="container-fluid cobertura-title">
+        <div class="row">
+            <div class=" p-4 col-12">
+                <h4 class=" text-center m-0 cobertura-text-title">Verifica la <span>disponibilidad</span> <br>
+                    del servicio en <span>tu zona</span> </h4>
             </div>
         </div>
-
-        <div class="nosotros-svg"></div>
     </div>
 
+    <div class="container-fluid cobertura-container">
+        <div class="container">
 
+            <div class="row">
+
+                <div class="col-12 col-md-4 accordion r" id="accordionExample">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button accordion-btn-active" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                aria-controls="collapseOne">
+                                <i class="bi bi-broadcast-pin"></i>TOSAGUA
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body overflow-auto">
+                                <ul>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>ANGEL PEDRO GILER</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>FIGUEROA</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>BACHILLERO</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>MONTE OSCURO</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>EL JUNCO</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>CERRO VERDE</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>EL VIENTO</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LAS YUCAS</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LOS AMARILLOS</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>DOS CAMINOS</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>EL BARRO</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>EL CAMAL</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>EL GRAMAL</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>EL JUNCAL</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>EL POLVAR</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>EL RECREO</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>EL TAMBO</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>JACAY</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LA ATRAVESADA</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>KM 20 - 21</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LA MADERA</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LA PASTORA</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LA PITAHAYA</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LA VAINA</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>CACHO ROJO</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LA PROPICIA</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>SOCO SOCO</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LAS GUAIJAS</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LA PROPICIA</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LOS NARANJOS</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>MONTAÑITA</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LOS CORRALES</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LOS MICOS</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>MATAPALO</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>MUTRE</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>SAN BARTOLOMÉ</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>SAN ROQUE</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>EL LIMÓN</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>EL PARAÍSO</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LA PALMA</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LAS CAÑITAS</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LA POZA</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>CRISTO NEGRO</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>CASICAL</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="bi bi-broadcast-pin"></i>CHONE
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>CANUTO</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LA PIÑUELA</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LA CHATA</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LA MOCORA</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>TRANQUIPIEDRA</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LA PLATA</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LA PALMITA</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LA CHORRERA</li>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>LA RIVERA</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <i class="bi bi-broadcast-pin"></i>JUNÍN
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li><i class="bi bi-bookmark-check-fill"></i>CENTRO DE JUNÍN</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="map" class="col-12 col-md-8  br-2 ">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.444082150499!2d-80.23535268533028!3d-0.7847629994274938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902ba4ff2e721f29%3A0x62b55038466ddacf!2sAzziNet%20%7C%20Tosagua!5e0!3m2!1ses!2sec!4v1638978747664!5m2!1ses!2sec"
+                        width="100%" height="600px" max-height="850px" style="" allowfullscreen=""
+                        loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-light text-muted container-fluid">
         <div class="container">
@@ -274,7 +362,9 @@
     </footer>
     <!-- Footer -->
     <!-- /FOOTER -->
-
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+        async></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">

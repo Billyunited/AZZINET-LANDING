@@ -23,6 +23,7 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -33,10 +34,10 @@
                 <div
                     class="col-12 text-md-center top-info-box d-flex justify-content-end justify-md-content-center align-items-center">
                     <div class="top-social ">
-                        <a href="https://www.facebook.com/AzziNet/">
+                        <a href="https://www.facebook.com/AzziNet/" target="_blank">
                             <i class="bi bi-facebook top-info-social-item"></i>
                         </a>
-                        <a href="https://www.instagram.com/azzinet/">
+                        <a href="https://www.instagram.com/azzinet/" target="_blank">
                             <i class="bi bi-instagram top-info-social-item"></i>
                         </a>
                     </div>
@@ -54,7 +55,7 @@
     </div>
     <!--/TOP HEADER  -->
     <!-- HEADER / HERO -->
-    <div class="header container-fluid header-nosotros-bg">
+    <div class="header container-fluid promociones-bg">
 
         <div class="bg-hero"></div>
         <div class="container">
@@ -74,7 +75,8 @@
                                     Inicio</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="#"><i class="bi bi-people-fill"></i> Nosotros</a>
+                                <a class="nav-link" href="./nosotros.html"><i class="bi bi-people-fill"></i>
+                                    Nosotros</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -98,7 +100,7 @@
                                     Cobertura</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="#"><i class="bi bi-star"></i>Beneficios</a>
+                                <a class="nav-link" href="./promociones.html"><i class="bi bi-star"></i>Promociones</a>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link" href="#"><i class="bi bi-info-circle"></i>Contacto</a>
@@ -119,9 +121,8 @@
         <div class="hero container">
             <div class="row">
                 <div class="col-12   hero-info d-flex flex-column justify-content-center text-center  ">
-                    <h1 class="hero-title ">10 años llevando <span>Internet</span> a <br>
-                        las zonas más alejadas
-                        <br> de <span>Tosagua</span>
+                    <h1 class="hero-title ">Nuestras <span>promociones</span> para <br>
+                        conectar tu hogar al <br> <span>poder de Internet</span>
                     </h1>
                 </div>
 
@@ -129,47 +130,25 @@
 
         </div>
     </div>
-
-    <div class="container-fluid nosotros">
+    <!--  -->
+    <div class="container-fluid promo-container-bg ">
         <div class="container">
-            <div class="row pb-5 quienes-somos">
-                <div
-                    class="quienes-somos-info-left col-6 col-md-6 col-sm-12  d-flex flex-column justify-content-center">
-                    <h4 class="">Quienes somos</h4>
-                    <p class="">Somos una empresa Joven con sentido de responsabilidad social y en proceso
-                        de expansión,
-                        creada con la finalidad de
-                        proveer de manera eficaz y confiable un servicio de Internet Banda Ancha a todos los hogares,
-                        Empresas y Comercios.
-                        Nuestro objetivo principal es suministrar la capacidad de conexión a Internet inalámbrico en
-                        lugares donde no llegan las
-                        prestadoras y a un precio justo.
-                    </p>
+            <div class="row">
+                <img src="./assets/img/promocion-v.png" alt="" class="img-fluid p-0 ">
+                <div class="terminos-condiciones text-center pt-5 bg-white pb-5 ">
+                    <h2 class="text-dark">Términos y condiciones:</h2>
+                    <ul class="text-dark">
+                        <li>1. Esta promoción es válida para nuevos clientes.</li>
+                        <li>2. El plan de 15 Megas x $15.00 (Inc. IVA) no es transferible.</li>
+                        <li>3. Disponible hasta 100 instalaciones.</li>
+                        <li>4. La instalación del servicio será en un periodo minimo de 2 a 5 dias</li>
+                        <li>5. La duración de esta promoción es durante todo el mes de diciembre</li>
+                    </ul>
                 </div>
-
-                <img class="img-fluid col-6 col-md-6 col-sm-12 p-0 img-quienes-somos"
-                    src="./assets/img/quienes-somos-right.png" alt="">
-            </div>
-            <div class="row ">
-                <div
-                    class="quienes-somos-info-left col-6 col-md-6 col-sm-12  d-flex flex-column justify-content-center">
-                    <h4 class="">Visión</h4>
-                    <p class="">Conectar a todos los hogares de Tosagua, llegando a las zonas más alejadas proveyendo de
-                        conexión a Internet para el
-                        desarrollo de nuestro cantón.
-                        Ofreciendo el mayor beneficio posible al menor costo. Invertimos en el desarrollo de nuestra
-                        ciudad y el motor principal
-                        de cambio: su gente.
-                    </p>
-                </div>
-                <img class="img-fluid col-6 col-md-6 col-sm-12 p-0 img-quienes-somos" src="./assets/img/vision-img.png"
-                    alt="">
             </div>
         </div>
 
-        <div class="nosotros-svg"></div>
     </div>
-
 
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-light text-muted container-fluid">
@@ -274,7 +253,9 @@
     </footer>
     <!-- Footer -->
     <!-- /FOOTER -->
-
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+        async></script>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">

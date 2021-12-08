@@ -1,0 +1,56 @@
+.header-fibra-bg {
+    background-image: url("../assets/img/fibra-optica.png");
+}
+
+.fibra-optica {
+    position: relative;
+    padding: 80px 0;
+    @include color-bg-gradient1;
+
+    h2 {
+        margin-bottom: 50px;
+    }
+}
+
+.fibra-optica .pricing-cards .card-item {
+    width: 300px;
+    z-index: 2;
+
+    .card-item-max {
+        background: linear-gradient(0deg, #f6f118 0%, #e5f335 14%, #b5f98b 56%, #96fdc0 86%, #8affd5 100%);
+
+        color: $color-accent-1;
+    }
+}
+
+.planes-empresariales-bg .card-item {
+    min-width: 300px;
+}
+
+.bg-fibra {
+    background-image: url("../assets/img/nosotros-svg.svg");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.pc-1 {
+    margin-bottom: 20px;
+}
+
+.planes-empresariales {
+    background: linear-gradient(180deg, #ffffff 0%, #f3f3f3 100%);
+    h2 {
+        color: $color-accent-1;
+        padding: 40px 0;
+    }
+}
+
+.planes-empresariales-bg {
+    @include color-bg-gradient1;
+    @include spacing-top-100 @include spacing-bottom-100;
+}
